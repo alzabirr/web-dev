@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .container{
+            display: flex;
+        }
+        .container div{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            
+        }
+
+        .box-container{
+            display: flex;
+
+            gap: 10px;
+        }
+ 
+
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 3px dotted tomato;
+            font-size: 2em;
+
+
+        }
+        
+        .user-container{
+            display: flex;
+            gap: 20px;
+            /* justify-content: center; */
+            justify-content: space-between;
+        }
+
+        .user{
+            height: 200px;
+            width: 200px;
+            border: 5px solid blue;
+            border-radius: 10px ;
+            background-color: bisque;
+            
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+    <div class="user-container">
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+
+    </div>
+    
+</body>
+</html>
