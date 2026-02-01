@@ -45,7 +45,7 @@ const car = true
 
 //  COMPLEX CONDITION 
 
-// if(  (salary > 29000 && house > 1) || height > 55){
+// if(  (salary > 29000 && house > 1 ) && height > 55){
 //     console.log("kobul");
     
 // }
@@ -64,3 +64,32 @@ const car = true
 //     console.log("no no no ");
     
 // }
+
+
+var number = 33;
+
+if(number <33){                          
+    console.log("F", number);
+    
+}else if (number <= 50  ){
+    console.log("C",number);
+    
+
+}else if (number <= 60){ 
+    console.log("B", number);
+    
+}else if (number <= 70){
+    console.log("A",number);   
+    
+}else if (number <= 90){
+    console.log("A+",number);
+    
+}else if (number <= 100){
+    console.log("Gold A+");
+    
+}
+else{
+    console.log("eam da");
+    
+}
+

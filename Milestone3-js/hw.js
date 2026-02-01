@@ -101,21 +101,42 @@
 
 
 
-let amrBoyos = 10 ; 
-let ENtryAge = 12 ;
-if(amrBoyos >= ENtryAge){
-    console.log("now jaw");
+// let amrBoyos = 10 ; 
+// let ENtryAge = 12 ;
+// if(amrBoyos >= ENtryAge){
+//     console.log("now jaw");
     
-}else{
-    console.log("no no ")
-}
+// }else{
+//     console.log("no no ")
+// }
 
 
 
 
 
+// let a = 70;
 
-  
+// if(a < 8){
+//     console.log("number is less than 8", );
+    
+// }
+// else if (a == 8){
+//     console.log("number is eqal to 8", );
+    
+// }else if (a < 8){
+//     console.log("a is less than 8");
+    
+
+// }
+// else{
+//     console.log("number noo", );
+    
+// }
+
+
+// task 1 
+
+
 
 
 
