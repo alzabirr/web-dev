@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Foods I love to eat </h1>
+    <h1>fhkfhd</h1>
+    <ul class="food">
+        <li>Rice</li>
+        <li>Potato</li>
+        <li>Fish</li>
+        <li class="change">Lentils</li>
+        <li class="change">Burger</li>
+        <li class="change">Pizza</li>
+        <li>Pasta</li>
+        
+    </ul>
+
+    <div class="player">
+
+    </div>
+
+        <script>
+            // let find = document.querySelectorAll(".change"){
+            //     for(const paltaw of find)
+            //         paltaw.style.color = "blue";
+                
+            // }
+
+
+            // use quaery selector all 
+         let find = document.querySelectorAll(".change");
+         for(const abar of find){
+            abar.innerText = "okkk";
+         }
+
+        // create html tag and append child
+         const newChild = document.createElement("li")
+         newChild.innerText = "This is new ul ";
+         const parent = document.querySelector(".food");
+         parent.appendChild(newChild);
+         
+         
+         
+        </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

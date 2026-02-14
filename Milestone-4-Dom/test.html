@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="hi">this is heading </h1>
+
+
+    <ul>
+        <li class="add">one</li>
+        <li class="add">two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+
+    <script>
+        let find = document.querySelector(".hi");
+        find.innerText = "okkk";
+
+
+
+        // add ul 
+        let ultest = document.querySelectorAll(".add");
+        for(const ul of ultest){
+            ul.style.color = "red";
+        }
+    </script>
+</body>
+</html> 
