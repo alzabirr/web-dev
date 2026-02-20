@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="make-green">Make Green</button>
+    <button id="make-red">Make Red</button>
+    <button class="make-yellow">amke yellow</button>
+
+
+    <h1 class="title">this is dom </h1>
+    <button class="btnn">change dom</button>
+
+
+    <script>
+        document.getElementById("make-green").addEventListener("click", function(){
+            document.body.style.backgroundColor = "green";
+        })
+        
+       let a =   document.getElementById("make-red").addEventListener("click", function(){
+            document.body.style.backgroundColor = "red"
+        })
+
+        document.querySelector(".make-yellow").addEventListener("click", function(){
+            document.body.style.backgroundColor = "yellow"
+        })
+
+        document.querySelector(".btnn").addEventListener("click",function(){
+            
+            let cahngeTitle = document.querySelector(".title");
+            cahngeTitle.innerText = " this is obesly Dom"
+            
+
+        })
+
+    </script>
+</body>
+</html>
+ -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">chang with dom</h1>
+
+    <button class="btn">click me </button>
+    <h2>click to cahange</h2>
+
+
+
+    <script>
+    //    document.querySelector(".btn").addEventListener("click",function(){
+        
+    //     let titleSelect = document.querySelector(".title");
+    //     titleSelect.innerText = "nooo"
+        
+    //    })
+
+
+
+    //    document.querySelector("#log-in").addEventListener("click", function(){
+    //         const titleChange = document.querySelector("#log-title");
+    //         titleChange.innerText = "user login successfull"
+            
+    //     })
+
+
+    document.querySelector("h2").addEventListener("click",function(){
+        let select = document.querySelector(".title");
+        select.innerText = "again hbe"
+        
+    })
+
+    </script>
+    
+</body>
+</html>

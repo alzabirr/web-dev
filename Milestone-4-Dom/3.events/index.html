@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Events</title>
+</head>
+<body>
+    <h1>dom doma dom dom dom Events</h1>
+
+    <!-- option 1 for event handling  -->
+    <button onclick="console.log('Button clicked!');">Click Me!</button>
+    <!--  -->
+
+
+    <!-- option 2 for event handling  -->
+     <button onclick="webYellow()">Make Yellow</button>
+
+     <button onclick="webWhite()">back to White </button>
+     <!--  -->
+
+     <!-- option 3 for event handling  --> 
+
+     <button id = "btn-make-blue">Make Blue</button>
+
+     <button class="btnRed">Red</button>
+
+     <script>
+        // <!-- option 2 for event handling  --> 
+        function webYellow(){
+            document.body.style.backgroundColor = "yellow";
+        }
+
+        // <!-- option 2 for event handling  --> 
+        function webWhite(){
+            document.body.style.backgroundColor = "white";
+        }
+        
+        //  <!-- option 3 for event handling  --> 
+        const btnblue = document.getElementById("btn-make-blue");
+        btnblue.onclick = function (){
+            document.body.style.backgroundColor = "blue";
+
+        }
+
+        
+        
+     </script>
+
+
+    <script src="events.js"></script>
+</body>
+</html>

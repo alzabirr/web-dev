@@ -11,14 +11,30 @@
 
     <h1>Welcome to my Dom</h1>
 
-    <ul>
-        <li>one </li>
-        <li>two </li>
-        <li>three </li>
-    </ul>
+    <h1>hi 1 </h1>
+    <h1>hi 2 </h1>
 
+ 
+
+    <button class="btn">click me for change this </button>
+
+    <script>
+
+      let a = document.querySelector(".btn").addEventListener("click",function(){
+        
+        let b = document.querySelectorAll("h1");
+        // b.innerText = "rafi"
+        for(let h of b){
+          h.innerText = "fsfdf"
+        }
+        
+      })
+
+    </script>
     <!-- htm er shate js er connection  -->
-     <script>
+     <!-- <script>
+
+
 
         const allTagname = document.getElementsByTagName("h1");
         for(const h1tag of allTagname){
@@ -26,10 +42,26 @@
             
 
         }        
-      
+      const selectbtn = document.querySelector(".btn");
+      selectbtn.onclick = function fah(){
+        document.body.style.backgroundColor = "pink";
+      }
         
+      document.querySelector(".btnRed").addEventListener("dblclick",function(){
+        document.body.style.backgroundColor = "red"
+      })
 
-     </script>
+        // document.querySelector(".make-yellow").addEventListener("click", function(){
+        //     document.body.style.backgroundColor = "yellow"
+        // })
+
+      document.querySelectorAll("h1").addEventListener("click", function(){
+          document.body.style.backgroundColor = "green";
+        
+        
+      })
+
+     </script> -->
 
      <!-- extarnal js file linking -->
      <!-- <script src="./js/hello.js"></script> -->
