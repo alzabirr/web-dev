@@ -4,11 +4,15 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+// import korbo todo ke 
+import Todoo from './Todo'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+   
+
     <h1>Create custom component </h1>
 
     {/* Custom component  */}
@@ -24,6 +28,10 @@ function App() {
    <Developer1 dev ="Al Zabir" tec =" Django" sal= "200" ></Developer1>
    <Developer1 dev ="Rafi" tec =" Mern"></Developer1>
 
+  
+   {/* import  from todo  */}
+    <Todoo task = "React"></Todoo>
+    <Todoo task = "Django"></Todoo>
     </>
   )
 }
@@ -82,6 +90,10 @@ function Developer1({dev,tec,sal = 100}){
     </div>
   )
 }
+
+
+
+
 
 export default App
 
