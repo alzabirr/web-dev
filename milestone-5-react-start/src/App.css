@@ -189,7 +189,7 @@
   margin: 10px;
   padding:  10px;
   border-radius: 20px;
-  border: 3px solid red;
+  border: 3px solid rgb(2, 63, 231);
 }
 
 .developer{
@@ -197,5 +197,14 @@
   padding:  10px;
   border-radius: 20px;
   background-color: bisque;
-  color: black;
+  color: rgb(34, 23, 23);
+}
+
+.design{
+  margin: 10px;
+  padding:  10px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  
 }

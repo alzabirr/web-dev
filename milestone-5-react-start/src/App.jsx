@@ -20,24 +20,15 @@ function App() {
     <Developer name = "Rafi"  tech ="Mern"></Developer>
     <Developer name = "Kafi"  tech = "Django"></Developer>
 
+   {/* Custom Component ( using Destructuring) */}
+   <Developer1 dev ="Al Zabir" tec =" Django" sal= "200" ></Developer1>
+   <Developer1 dev ="Rafi" tec =" Mern"></Developer1>
 
     </>
   )
 }
 
-// Custom component 
-function Person(){
 
-  // CSS 
-  const personStyle ={
-    color : "yellow",
-    fontSize : "25px"
-  }
-  return (
-    <p style={personStyle}>Hi  this is person </p>
-  
-  )
-}
 
 // Custom component 
 function FootballPlayer(){
@@ -58,6 +49,20 @@ function Student (a){
 }
 
 // Custom component 
+function Person(){
+
+  // CSS 
+  const personStyle ={
+    color : "yellow",
+    fontSize : "25px"
+  }
+  return (
+    <p style={personStyle}>Hi  this is person </p>
+  
+  )
+}
+
+// Custom component 
 function Developer (props){
   return (
     <div className='developer'> 
@@ -66,4 +71,19 @@ function Developer (props){
     </div>
   )
 }
+
+// Destructuring as like (props) 
+function Developer1({dev,tec,sal = 100}){
+  return(
+    <div className='design' >
+      <h2>Developer Name : {dev}</h2>
+      <h4>Technology : {tec}</h4>
+      <h4>Salary :{sal}</h4>
+    </div>
+  )
+}
+
 export default App
+
+
+
